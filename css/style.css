@@ -207,6 +207,12 @@ button {
   padding: 1.8em 2.5em;
 }
 
+@media (max-width: 400px) {
+  h1 {
+  padding-top: 1em;
+  }
+}
+
 /***End of header styles***/
 /*Services styles*/
 #services {
@@ -391,6 +397,7 @@ button {
 
 .feature-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;  
 }
 
@@ -445,6 +452,19 @@ button {
 
   .img-wrapper3 {
     margin-top: 5em;
+  }
+}
+
+@media (max-width: 400px){
+  .feature-wrapper {
+    justify-content: center;
+  }
+  #latest .icon-wrapper {
+    margin-top: 0;
+  }
+
+  .text-wrapper h4 {
+    padding-top: 1em;
   }
 }
 
