@@ -396,8 +396,7 @@ button {
 }
 
 .feature-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+  display: flex;  
   align-items: center;  
 }
 
@@ -441,14 +440,14 @@ button {
 
 @media (min-width: 1200px) {
   .project-wrapper {
-    flex-direction: row;
+    flex-direction: row;    
     justify-content: space-between;
   }
 
   .text-wrapper {
     margin-left: 200px;
     margin-top: 2em;
-  }
+  } 
 
   .img-wrapper3 {
     margin-top: 5em;
@@ -461,9 +460,10 @@ button {
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 470px){
   .feature-wrapper {
     justify-content: center;
+    flex-wrap: wrap;
   }
   #latest .icon-wrapper {
     margin-top: 0;
