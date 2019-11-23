@@ -362,6 +362,16 @@ button {
   }
 }
 
+
+@media (max-width: 400px) {
+  .img-wrapper2 {
+    height: 1200px;
+  }
+  
+  .overlay2 {
+    height: 1200px;
+  }
+}
 /*Latest section styles*/
 #latest h2 {
   padding-top: .3em;
