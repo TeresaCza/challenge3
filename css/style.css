@@ -4,7 +4,8 @@
   --lighter-gray: #777;
   --dark: #222;
   --green: #7CC576;
-  --bg-gray: #E9E9E9;  
+  --bg-gray: #E9E9E9;
+  --lighter-bg-gray: #f9f9f9;  
 }
 
 body {
@@ -438,6 +439,15 @@ button {
 }
 
 /*Culture section styles*/
+#culture {
+  background-color: var(--lighter-bg-gray);
+}
+
+#culture h2 {
+  padding-top: 1.8em;
+  margin-top: 0;
+}
+
 #culture .subtitle {
   margin-bottom: 3em;
 }
@@ -515,7 +525,7 @@ button {
   height: 220px;
   width: 220px;
   border-radius: 50%;
-  background-color: #f9f9f9;
+  background-color: var(--lighter-bg-gray);
   margin: 1em 2em;
 }
 
@@ -524,7 +534,7 @@ button {
 }
 
 blockquote {
-  background-color: #f9f9f9;
+  background-color: var(--lighter-bg-gray);
   font-size: 1.4rem;
   line-height: 1.5;
   padding: 2em;
