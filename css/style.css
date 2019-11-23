@@ -58,6 +58,23 @@ body {
   align-items: center;
 }
 
+/*Button styles*/
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--green);
+  border: none;
+  border-radius: 9999px;
+  font-weight: bold;
+  margin: 3em;
+  padding: 1.8em 2.5em;
+  transition: opacity 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
 /*******Specific styles*******/
 /***Header styles***/
 /*Navigation styles*/
@@ -196,17 +213,6 @@ h1 {
   font-size: 1.2rem;  
 }
 
-button {
-  color: #fff;
-  cursor: pointer;
-  background-color: var(--green);
-  border: none;
-  border-radius: 9999px;
-  font-weight: bold;
-  margin: 3em;
-  padding: 1.8em 2.5em;
-}
-
 @media (max-width: 400px) {
   h1 {
   padding-top: 1em;
@@ -320,7 +326,7 @@ button {
 @media (min-width: 750px) {
   #relax {
     position: relative;
-    z-index: -2;
+    z-index: 0;
   }
 
   .gear {
@@ -354,7 +360,7 @@ button {
   }
 
   #relax button {
-    margin-left: 0;
+    margin-left: 0;    
   }
 }
 
@@ -607,12 +613,17 @@ blockquote {
 
 .btn {
   color: #fff;
+  cursor: pointer;
   display: inline-block;
   font-weight: 700;
   padding: 1em 2em;
   border: 3px solid #fff;
   border-radius: 4px;
   margin-top: 1.5em;
+}
+
+.btn:hover {
+  background-color: #8DD687;
 }
 
 /*Press section styles*/
