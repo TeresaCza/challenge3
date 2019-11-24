@@ -609,6 +609,12 @@ blockquote {
   }
 }
 
+@media (max-width: 400px){
+  blockquote {
+    padding: 1em;
+  }
+}
+
 /*Contact section styles*/
 #contact {
   background-color: var(--green);
