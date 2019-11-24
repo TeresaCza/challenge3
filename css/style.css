@@ -229,6 +229,10 @@ h1 {
 #services {
   line-height: 1.5;
   padding: .5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #services h2 {
@@ -354,6 +358,7 @@ h1 {
 
   .content-wrapper h2 {
     margin-top: 2em;
+    margin-left: 0;
   }
 
   #relax ul {
