@@ -295,12 +295,10 @@ h1 {
 
 .img-wrapper2 {
   background: url("../images/background2.png") center center/cover;
-  height: 615px;
 }
 
 .overlay2 {
-  background: rgba(0,0,0,.7);
-  height: 615px;  
+  background: rgba(0,0,0,.7);  
 }
 
 .content-wrapper {
@@ -348,6 +346,11 @@ h1 {
 
   .img-wrapper2 {
     margin-left: 30%;
+    height: 615px;
+  }
+
+  .overlay2 {
+    height: 615px;
   }
 
   .content-wrapper {
@@ -375,29 +378,11 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  .img-wrapper2 {
-    height: 800px;
-  }
-  
-  .overlay2 {
-    height: 800px;
-  }
-
   .content-wrapper {
     padding: 3em 1em 6em;
   }
 }
 
-
-@media (max-width: 400px) {
-  .img-wrapper2 {
-    height: 1000px;
-  }
-  
-  .overlay2 {
-    height: 1000px;
-  }
-}
 /*Latest section styles*/
 #latest h2 {
   padding-top: .3em;
