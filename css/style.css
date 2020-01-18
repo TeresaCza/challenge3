@@ -707,8 +707,7 @@ blockquote {
 }
 
 .tweet img {
-  width: 20px;
-  height: 15px;
+  flex-shrink: 0;  
 }
 
 .time {
@@ -719,16 +718,12 @@ blockquote {
   #summary {
     flex-direction: row;
     align-items: flex-start;
-    padding: 2.5em 6em 3em;
+    padding: 2.5em 14em 2em 5em;
   }
 
   .contact-us, .posts, .tweets {
     text-align: left;
-  }
-
-  .tweets {
-    margin-left: -2em;
-  }
+  } 
 
   .contact-us {
     width: 20%;
@@ -737,11 +732,11 @@ blockquote {
   
   .posts {
     width: 35%;  
-    margin-left: 5em;
+    margin-left: 6em;
   }
   
    .tweets {
-    width: 35%;    
+    width: 28%;    
   }
 }
 
